@@ -1,9 +1,10 @@
+import { Header } from "./Components/Header";
 import { GlobalStyle } from "./styles/global";
 
 export function App() {
   return (
     <>
-      <h1>DTmoney</h1>
+      <Header />
       <GlobalStyle />
     </>
   );
